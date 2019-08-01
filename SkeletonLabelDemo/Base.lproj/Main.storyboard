@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SkeletonLabelDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aup-Oi-yaS">
+                                <rect key="frame" x="32" y="353.5" width="350" height="109.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ir-9K-xP2" customClass="SkeletonLabel" customModule="SkeletonLabelDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="8" width="104" height="38.5"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="104" id="MHL-iL-lV1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSN-hp-oom" customClass="SkeletonLabel" customModule="SkeletonLabelDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="54.5" width="350" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ny-cc-aDC" customClass="SkeletonLabel" customModule="SkeletonLabelDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="82" width="350" height="19.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="1ny-cc-aDC" firstAttribute="leading" secondItem="aup-Oi-yaS" secondAttribute="leading" id="7an-vL-ydJ"/>
+                                    <constraint firstItem="9ir-9K-xP2" firstAttribute="top" secondItem="aup-Oi-yaS" secondAttribute="top" constant="8" id="BEd-Gv-iad"/>
+                                    <constraint firstItem="HSN-hp-oom" firstAttribute="top" secondItem="9ir-9K-xP2" secondAttribute="bottom" constant="8" id="Dy5-ln-9Tm"/>
+                                    <constraint firstAttribute="trailing" secondItem="1ny-cc-aDC" secondAttribute="trailing" id="EX0-4d-WxL"/>
+                                    <constraint firstItem="HSN-hp-oom" firstAttribute="leading" secondItem="aup-Oi-yaS" secondAttribute="leading" id="GlT-a9-q6f"/>
+                                    <constraint firstAttribute="trailing" secondItem="HSN-hp-oom" secondAttribute="trailing" id="HCb-z2-6he"/>
+                                    <constraint firstItem="9ir-9K-xP2" firstAttribute="leading" secondItem="aup-Oi-yaS" secondAttribute="leading" id="mrg-4e-cc1"/>
+                                    <constraint firstAttribute="bottom" secondItem="1ny-cc-aDC" secondAttribute="bottom" constant="8" id="uTK-l8-InQ"/>
+                                    <constraint firstItem="1ny-cc-aDC" firstAttribute="top" secondItem="HSN-hp-oom" secondAttribute="bottom" constant="8" id="vbC-Sm-HOs"/>
+                                </constraints>
+                            </view>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BhR-ej-oCr">
+                                <rect key="frame" x="113.5" y="519" width="187" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="SHOW ME AGAIN"/>
+                                <connections>
+                                    <action selector="onTapReload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Iu-zO-Eb0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aup-Oi-yaS" secondAttribute="trailing" constant="32" id="1QZ-rM-dDj"/>
+                            <constraint firstItem="BhR-ej-oCr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="20T-M6-JhS"/>
+                            <constraint firstItem="BhR-ej-oCr" firstAttribute="top" secondItem="aup-Oi-yaS" secondAttribute="bottom" constant="56" id="76f-FR-B3F"/>
+                            <constraint firstItem="aup-Oi-yaS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="8e7-IG-dVf"/>
+                            <constraint firstItem="aup-Oi-yaS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40" id="dH4-KD-W2Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="9ir-9K-xP2" id="mIX-ef-GDU"/>
+                        <outlet property="label2" destination="HSN-hp-oom" id="0vA-6D-qxi"/>
+                        <outlet property="label3" destination="1ny-cc-aDC" id="pAm-Sp-W7K"/>
+                        <outlet property="reloadButton" destination="BhR-ej-oCr" id="kiu-Ac-5bE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="128.57142857142856"/>
+        </scene>
+    </scenes>
+</document>
