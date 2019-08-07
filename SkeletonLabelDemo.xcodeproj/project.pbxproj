@@ -12,8 +12,7 @@
 		9266C1E822F2A33400E4BF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9266C1E622F2A33400E4BF50 /* Main.storyboard */; };
 		9266C1EA22F2A33600E4BF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9266C1E922F2A33600E4BF50 /* Assets.xcassets */; };
 		9266C1ED22F2A33600E4BF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9266C1EB22F2A33600E4BF50 /* LaunchScreen.storyboard */; };
-		9266C1F822F2A33600E4BF50 /* SkeletonLabelDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266C1F722F2A33600E4BF50 /* SkeletonLabelDemoTests.swift */; };
-		9266C20322F2A5A000E4BF50 /* SkeletonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9266C20222F2A5A000E4BF50 /* SkeletonLabel.swift */; };
+		92CA4CF522FAB728001E8E8A /* SkeletonLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92CA4CF422FAB728001E8E8A /* SkeletonLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +34,7 @@
 		9266C1EC22F2A33600E4BF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9266C1EE22F2A33600E4BF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9266C1F322F2A33600E4BF50 /* SkeletonLabelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonLabelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9266C1F722F2A33600E4BF50 /* SkeletonLabelDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonLabelDemoTests.swift; sourceTree = "<group>"; };
-		9266C1F922F2A33600E4BF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9266C20222F2A5A000E4BF50 /* SkeletonLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SkeletonLabel.swift; path = Sources/SkeletonLabel.swift; sourceTree = SOURCE_ROOT; };
+		92CA4CF422FAB728001E8E8A /* SkeletonLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkeletonLabel.swift; path = Sources/SkeletonLabel/SkeletonLabel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				9266C1E122F2A33400E4BF50 /* SkeletonLabelDemo */,
-				9266C1F622F2A33600E4BF50 /* SkeletonLabelDemoTests */,
 				9266C1E022F2A33400E4BF50 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,24 +75,15 @@
 		9266C1E122F2A33400E4BF50 /* SkeletonLabelDemo */ = {
 			isa = PBXGroup;
 			children = (
+				92CA4CF422FAB728001E8E8A /* SkeletonLabel.swift */,
 				9266C1E222F2A33400E4BF50 /* AppDelegate.swift */,
 				9266C1E422F2A33400E4BF50 /* ViewController.swift */,
 				9266C1E622F2A33400E4BF50 /* Main.storyboard */,
 				9266C1E922F2A33600E4BF50 /* Assets.xcassets */,
 				9266C1EB22F2A33600E4BF50 /* LaunchScreen.storyboard */,
 				9266C1EE22F2A33600E4BF50 /* Info.plist */,
-				9266C20222F2A5A000E4BF50 /* SkeletonLabel.swift */,
 			);
 			path = SkeletonLabelDemo;
-			sourceTree = "<group>";
-		};
-		9266C1F622F2A33600E4BF50 /* SkeletonLabelDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				9266C1F722F2A33600E4BF50 /* SkeletonLabelDemoTests.swift */,
-				9266C1F922F2A33600E4BF50 /* Info.plist */,
-			);
-			path = SkeletonLabelDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,7 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9266C1E522F2A33400E4BF50 /* ViewController.swift in Sources */,
-				9266C20322F2A5A000E4BF50 /* SkeletonLabel.swift in Sources */,
+				92CA4CF522FAB728001E8E8A /* SkeletonLabel.swift in Sources */,
 				9266C1E322F2A33400E4BF50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9266C1F822F2A33600E4BF50 /* SkeletonLabelDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
