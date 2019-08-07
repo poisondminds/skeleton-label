@@ -19,7 +19,7 @@ import UIKit
         }
     }
 
-    override var text: String? {
+    override public var text: String? {
         didSet {
             guard let string = self.text, !string.isEmpty else { return }
             self.unskeletonize()
