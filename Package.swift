@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "skeleton-label",
+    name: "SkeletonLabel",
     products: [
         .library(
             name: "SkeletonLabel",
