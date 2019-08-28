@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
   spec.platform = :ios
   spec.ios.deployment_target = '12.0'
   spec.name         = "SkeletonLabel"
-  spec.version      = "1.6.0"
+  spec.version      = "1.6"
   spec.summary      = "A cute little view to make placeholders of your UILabels while content is loading"
 
   # This description is used to generate tags and improve search results.
@@ -133,4 +133,5 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
+  spec.swift_version = "4.2"
 end
