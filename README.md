@@ -6,7 +6,7 @@ A cute little view to make placeholders of your UILabels while content is loadin
 ## Features
 * Show "skeleton" view until text is set on any `UILabel`
 * Customize skeleton background color
-* `skeletonize()` and `unskeletonize()` as needed :)
+* `skeletonize()` as needed :)
 
 ## Usage
 ![Usage Identity](Assets/usage_identity.png)
