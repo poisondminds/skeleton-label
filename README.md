@@ -1,7 +1,7 @@
 # skeleton-label
 A cute little view to make placeholders of your UILabels while content is loading
 
-![Demo Animation](assets/demo.gif)
+![Demo Animation](Assets/demo.gif)
 
 ## Features
 * Show "skeleton" view until text is set on any `UILabel`
@@ -9,9 +9,9 @@ A cute little view to make placeholders of your UILabels while content is loadin
 * `skeletonize()` and `unskeletonize()` as needed :)
 
 ## Usage
-![Usage Identity](assets/usage_identity.png)
+![Usage Identity](Assets/usage_identity.png)
 
-![Demo Animation](assets/usage_attributes.png)
+![Demo Animation](Assets/usage_attributes.png)
 
 
 ## Installation
